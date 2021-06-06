@@ -1,0 +1,38 @@
+{
+  "name": "google-facebook-integration-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "https": "^1.0.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep-giri/google-facebook-integration-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep-giri/google-facebook-integration-backend/issues"
+  },
+  "homepage": "https://github.com/pradeep-giri/google-facebook-integration-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
